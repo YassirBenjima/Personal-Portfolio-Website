@@ -42,6 +42,23 @@
             <a href="#about" class="btn">about me</a>
         </div>
     </section>
+
+    <section class="about" id="about">
+        <h1 class="heading"><span>Biography</span></h1>
+        <div class="biography">
+            <p>
+                My name is Yassir BENJIMA. I am a third-year student in Computer Engineering and Networks at the Moroccan School of Engineering Sciences (EMSI)
+            </p>
+            <div class="bio">
+                <h3><span>Name : </span> Yassir Benjima</h3>
+                <h3><span>Email : </span> yassirbenjima18@gmail.com</h3>
+                <h3><span>Phone : </span>+212 623-401-404</h3>
+                <h3><span>Age : </span> 21 years</h3>
+                <h3><span>Experience : </span> +1 years of experience</h3>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+    </section>
     <script src="js/script.js"></script>
 </body>
 

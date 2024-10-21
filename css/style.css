@@ -56,6 +56,15 @@ section {
   max-width: 1200px;
   text-align: center;
 }
+.heading {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.heading span {
+  text-transform: uppercase;
+  font-size: 6.5rem;
+  border-bottom: var(--border-bold);
+}
 .btn {
   display: inline-block;
   margin-top: 1rem;
@@ -176,6 +185,32 @@ section {
   padding: 1rem 0;
 }
 
+.about .biography p {
+  margin: 2rem auto;
+  max-width: 70rem;
+  line-height: 2;
+  font-size: 1.7rem;
+}
+
+.about .biography .bio {
+  margin: 1rem 0;
+}
+
+.about .biography .bio h3 {
+  padding: 1rem 2rem;
+  display: inline-block;
+  margin: 1rem;
+  background-color: var(--light-bg);
+  border: var(--border-light);
+  word-break: break-all;
+  font-size: 2.5rem;
+  font-weight: normal;
+  text-transform: none;
+}
+.about .biography .bio h3 span {
+  font-weight: lighter;
+}
+
 /*Media Queries*/
 
 @media (max-width: 991px) {
@@ -200,5 +235,11 @@ section {
   .home .image img {
     height: auto;
     width: 100%;
+  }
+  .heading span {
+    font-size: 4rem;
+  }
+  .about .biography .bio h3 {
+    font-size: 2rem;
   }
 }
