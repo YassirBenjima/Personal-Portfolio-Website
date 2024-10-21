@@ -90,6 +90,43 @@
                 </div>
             </div>
         </div>
+        <div class="edu-exp">
+            <h1 class="heading"><span>Education & exprience</span></h1>
+            <div class="row">
+                <div class="box-container">
+                    <h3 class="title">Education</h3>
+                    <div class="box">
+                        <span> 2019-2020 </span>
+                        <h3>Bachelor’s Degree in Experimental Sciences</h3>
+                        <p>Bachelor’s Degree in Experimental Sciences, with a Specialization in Life and Earth Sciences</p>
+                    </div>
+                    <div class="box">
+                        <span> 2021-2023 </span>
+                        <h3> Specialized Technician in Digital Development,Full-Stack Web Development</h3>
+                        <p> ISTA NTIC, Sidi Youssef Ben Ali – Marrakech</p>
+                    </div>
+                    <div class="box">
+                        <span> 2023-Now </span>
+                        <h3> Third-Year Engineering Student, specializing in Computer Science and Networks</h3>
+                        <p>Moroccan School of Engineering Sciences (EMSI) Marrakech</p>
+                    </div>
+                </div>
+
+                <div class="box-container">
+                    <h3 class="title">Exprience</h3>
+                    <div class="box">
+                        <span> March 2023 - April 2023 </span>
+                        <h3> Internship as a Developer at 212Communication</h3>
+                        <p> Designed and developed a web management application for the Pickalbatros hotel group using HTML, CSS,Bootstrap, Symfony, and jQuery</p>
+                    </div>
+                    <div class="box">
+                        <span> July 2024 - August 2024</span>
+                        <h3> Internship as a Developer at Grow Easy</h3>
+                        <p>Designed and developed an e-commerce website using HTML, CSS, Bootstrap, Laravel, and AJAX</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <script src="js/script.js"></script>
 </body>

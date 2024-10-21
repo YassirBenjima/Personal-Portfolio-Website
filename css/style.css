@@ -261,6 +261,45 @@ section {
 .about .skills .progress .bar:nth-child(9) h3 {
   width: 90%;
 }
+
+.about .edu-exp .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.about .edu-exp .row .box-container {
+  flex: 1 1 40rem;
+}
+.about .edu-exp .row .box-container .title {
+  padding: 1.5rem;
+  font-size: 3rem;
+  background-color: var(--green);
+  color: var(--white);
+}
+
+.about .edu-exp .row .box-container .box {
+  text-align: left;
+  margin: 1.5rem 0;
+  background-color: var(--light-bg);
+  padding: 2rem;
+}
+.about .edu-exp .row .box-container .box {
+  font-size: 1.5rem;
+}
+
+.about .edu-exp .row .box-container .box h3 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.about .edu-exp .row .box-container .box p {
+  line-height: 1.5;
+  font-size: 1.7rem;
+  line-height: 2;
+}
 /*Media Queries*/
 
 @media (max-width: 991px) {
