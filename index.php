@@ -58,6 +58,38 @@
             </div>
             <a href="#" class="btn">Download CV</a>
         </div>
+        <div class="skills">
+            <h1 class="heading"><span>Skills</span></h1>
+            <div class="progress">
+                <div class="bar">
+                    <h3><span>HTML</span><span>100%</span></h3>
+                </div>
+                <div class="bar">
+                    <h3><span>CSS</span><span>90%</span></h3>
+                </div>
+                <div class="bar">
+                    <h3><span>Javascript</span><span>95%</span></h3>
+                </div>
+                <div class="bar">
+                    <h3><span>Bootstrap</span><span>100%</span></h3>
+                </div>
+                <div class="bar">
+                    <h3><span>PHP</span><span>98%</span></h3>
+                </div>
+                <div class="bar">
+                    <h3><span>Laravel</span><span>100%</span></h3>
+                </div>
+                <div class="bar">
+                    <h3><span>C++</span><span>95%</span></h3>
+                </div>
+                <div class="bar">
+                    <h3><span>Python</span><span>90%</span></h3>
+                </div>
+                <div class="bar">
+                    <h3><span>Django</span><span>90%</span></h3>
+                </div>
+            </div>
+        </div>
     </section>
     <script src="js/script.js"></script>
 </body>

@@ -210,7 +210,57 @@ section {
 .about .biography .bio h3 span {
   font-weight: lighter;
 }
-
+.about .skills {
+  margin: 3rem 0;
+}
+.about .skills .progress {
+  margin-top: 1rem;
+}
+.about .skills .progress .bar {
+  margin: 1rem auto;
+  max-width: 70rem;
+  border: var(--border-bold);
+  padding: 1rem;
+}
+.about .skills .progress .bar h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+  padding: 2rem;
+  background-color: var(--green);
+}
+.about .skills .progress .bar span {
+  font-weight: normal;
+  color: var(--white);
+}
+.about .skills .progress .bar:nth-child(1) h3 {
+  width: 100%;
+}
+.about .skills .progress .bar:nth-child(2) h3 {
+  width: 90%;
+}
+.about .skills .progress .bar:nth-child(3) h3 {
+  width: 95%;
+}
+.about .skills .progress .bar:nth-child(4) h3 {
+  width: 100%;
+}
+.about .skills .progress .bar:nth-child(5) h3 {
+  width: 98%;
+}
+.about .skills .progress .bar:nth-child(6) h3 {
+  width: 100%;
+}
+.about .skills .progress .bar:nth-child(7) h3 {
+  width: 95%;
+}
+.about .skills .progress .bar:nth-child(8) h3 {
+  width: 90%;
+}
+.about .skills .progress .bar:nth-child(9) h3 {
+  width: 90%;
+}
 /*Media Queries*/
 
 @media (max-width: 991px) {
