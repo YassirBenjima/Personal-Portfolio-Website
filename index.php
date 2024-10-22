@@ -165,6 +165,37 @@
             </div>
         </div>
     </section>
+
+    <section class="portfolio" id="portfolio">
+        <h1 class="heading"><span>Portfolio</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/img-1.jpg" alt="">
+                <h3>Front-End Development</h3>
+                <span>( 2020 - Now )</span>
+            </div>
+            <div class="box">
+                <img src="images/img-2.jpg" alt="">
+                <h3>Back-End Development</h3>
+                <span>( 2020 - Now )</span>
+            </div>
+            <div class="box">
+                <img src="images/img-3.jpg" alt="">
+                <h3>Full-Stack Project</h3>
+                <span>( 2020 - Now )</span>
+            </div>
+            <div class="box">
+                <img src="images/img-4.jpg" alt="">
+                <h3>E-Commerce Website</h3>
+                <span>( 2020 - Now )</span>
+            </div>
+            <div class="box">
+                <img src="images/img-5.jpg" alt="">
+                <h3>Responsive Design</h3>
+                <span>( 2020 - Now )</span>
+            </div>
+        </div>
+    </section>
     <script src="js/script.js"></script>
 </body>
 

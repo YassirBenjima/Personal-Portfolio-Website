@@ -340,6 +340,32 @@ section {
 .services .box-container .box:hover p {
   color: var(--white);
 }
+
+.portfolio .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+.portfolio .box-container .box img {
+  height: 30rem;
+  width: 100%;
+  object-fit: cover;
+}
+.portfolio .box-container .box h3 {
+  margin: 1rem 0;
+  font-size: 2rem;
+  font-weight: normal;
+}
+.portfolio .box-container .box span {
+  font-size: 1.7rem;
+}
+.portfolio .box-container:hover .box {
+  opacity: 0.2;
+}
+.portfolio .box-container .box:hover {
+  opacity: 1;
+}
 /*Media Queries*/
 
 @media (max-width: 991px) {
