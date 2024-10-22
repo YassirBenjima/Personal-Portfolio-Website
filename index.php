@@ -1,3 +1,22 @@
+<?php
+$conn = mysqli_connect('localhost', 'root', '', 'contact') or die('Connection failed');
+if (isset($_POST['submit'])) {
+
+    $name = mysqli_real_escape_string($conn, $_POST['name']);
+    $email = mysqli_real_escape_string($conn, $_POST['email']);
+    $number = mysqli_real_escape_string($conn, $_POST['number']);
+    $msg = mysqli_real_escape_string($conn, $_POST['message']);
+
+    $select_message = mysqli_query($conn, "SELECT * FROM contact_form WHERE name='$name' AND email='$email' AND number = '$number' AND message = '$msg'") or die('query failed');
+    if (mysqli_num_rows($select_message) > 0) {
+        $message[] = "Message sent already";
+    } else {
+        mysqli_query($conn, "INSERT INTO contact_form(name,email,number,message) VALUES('$name','$email','$number','$msg')");
+        $message[] = "Message sent successfully";
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,15 +29,26 @@
 </head>
 
 <body>
+    <?php
+    if (isset($message)) {
+        foreach ($message as $msg) {
+            echo '<div class="message">
+            <span>' . $msg . '</span>
+            <i class="fas fa-times" onclick="this.parentElement.remove();"></i>
+        </div>';
+        }
+    }
+    ?>
+
     <header class="header">
         <div id="menu-btn" class="fas fa-bars"></div>
         <a href="#home" class="logo">Portfolio</a>
         <nav class="navbar">
-            <a href="#Home" class="active">Home</a>
-            <a href="#About">About</a>
-            <a href="#Services">Services</a>
-            <a href="#Portfolio">Portfolio</a>
-            <a href="#Cantact">Cantact</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Cantact</a>
         </nav>
         <div class="follow">
             <a href="#" class="fab fa-facebook-f"></a>
@@ -196,6 +226,38 @@
             </div>
         </div>
     </section>
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>Contact Me</span></h1>
+        <form action="" method="POST">
+            <div class="flex">
+                <input type="text" name="name" placeholder="Enter your name" class="box" required />
+                <input type="email" name="email" placeholder="Enter your email" class="box" required />
+            </div>
+            <input type="numberr" min="0" name="number" placeholder="Enter your number" class="box" required />
+            <textarea name="message" class="box" required cols="30" rows="10" placeholder="Enter your message"></textarea>
+            <input type="submit" value="Send message" name="submit" class="btn" />
+        </form>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-phone"></i>
+                <h3>phone</h3>
+                <p>+212-623-401-404</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-envelope"></i>
+                <h3>email</h3>
+                <p>yassirbenjima18@gmail.com</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>address</h3>
+                <p>Marrakech , Morocco 4000</p>
+            </div>
+        </div>
+    </section>
+    <div class="credit">&copy; copyright @<?php echo date('Y'); ?> by <span>Yassir Benjima</span></div>
     <script src="js/script.js"></script>
 </body>
 
