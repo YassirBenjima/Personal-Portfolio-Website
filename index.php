@@ -51,11 +51,11 @@ if (isset($_POST['submit'])) {
             <a href="#contact">Cantact</a>
         </nav>
         <div class="follow">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
-            <a href="#" class="fab fa-github"></a>
+            <a href="https://www.facebook.com/FarmNolife/" class="fab fa-facebook-f"></a>
+            <a href="https://x.com/YBenjima68394" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/yassir_benjima/" class="fab fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/yassir-benjima-43339a247/" class="fab fa-linkedin"></a>
+            <a href="https://github.com/YassirBenjima" class="fab fa-github"></a>
 
         </div>
     </header>
