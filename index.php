@@ -128,6 +128,43 @@
             </div>
         </div>
     </section>
+
+    <section class="services" id="services">
+        <h1 class="heading"><span>Services</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam error ipsum at numquam doloremque aspernatur quas. Rerum, suscipit illum omnis nemo cumque ut! Sit, alias doloribus praesentium minima omnis natus?</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Graphic Design</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam error ipsum at numquam doloremque aspernatur quas. Rerum, suscipit illum omnis nemo cumque ut! Sit, alias doloribus praesentium minima omnis natus?</p>
+            </div>
+            <div class="box">
+                <i class="fab fa-bootstrap"></i>
+                <h3>Bootstrap</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam error ipsum at numquam doloremque aspernatur quas. Rerum, suscipit illum omnis nemo cumque ut! Sit, alias doloribus praesentium minima omnis natus?</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-chart-line"></i>
+                <h3>SEO Marketing</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam error ipsum at numquam doloremque aspernatur quas. Rerum, suscipit illum omnis nemo cumque ut! Sit, alias doloribus praesentium minima omnis natus?</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Digital Marketing</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam error ipsum at numquam doloremque aspernatur quas. Rerum, suscipit illum omnis nemo cumque ut! Sit, alias doloribus praesentium minima omnis natus?</p>
+            </div>
+            <div class="box">
+                <i class="fab fa-wordpress-simple"></i>
+                <h3>Wordpress</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam error ipsum at numquam doloremque aspernatur quas. Rerum, suscipit illum omnis nemo cumque ut! Sit, alias doloribus praesentium minima omnis natus?</p>
+            </div>
+        </div>
+    </section>
     <script src="js/script.js"></script>
 </body>
 
